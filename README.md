@@ -1,14 +1,19 @@
-# nest-auth
+# Nest Auth Example
 
 ## Description
-
-basic-authentication-flow-using-nestjss
+Simple signup and login flow using Nest.js, TypeORM and JWT.
 
 ## Installation
 
 ```bash
 $ npm install
 ```
+
+# Environment Variables
+JWT_SECRET=[YOUR SECRET]
+
+# TypeORM
+The ORM configuration is not included. Create a `ormconfig.json` file for TypeORM before running.
 
 ## Running the app
 
@@ -24,15 +29,5 @@ npm run start:prod
 ```
 
 ## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+No tests included this time. Just playing around with the framework.
 
